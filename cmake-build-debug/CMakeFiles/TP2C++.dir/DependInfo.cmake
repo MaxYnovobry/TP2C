@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/Src/Exercice1.cpp" "CMakeFiles/TP2C++.dir/Src/Exercice1.cpp.obj" "gcc" "CMakeFiles/TP2C++.dir/Src/Exercice1.cpp.obj.d"
-  "C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/main.cpp" "CMakeFiles/TP2C++.dir/main.cpp.obj" "gcc" "CMakeFiles/TP2C++.dir/main.cpp.obj.d"
+  "C:/Users/max/Desktop/TP2C/Src/Exercice1.cpp" "CMakeFiles/TP2C++.dir/Src/Exercice1.cpp.obj" "gcc" "CMakeFiles/TP2C++.dir/Src/Exercice1.cpp.obj.d"
+  "C:/Users/max/Desktop/TP2C/main.cpp" "CMakeFiles/TP2C++.dir/main.cpp.obj" "gcc" "CMakeFiles/TP2C++.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
