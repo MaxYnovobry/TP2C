@@ -4,41 +4,45 @@
 #include <iostream>
 #include "../Header/Exercice1.h"
 
-
-// Declare a program who ask for an integer input,
-
 void Exercice1 (){
-    int n;
-    std::cout << "Veuillez rentrer un entier :" << std::endl;
-    std::cin >> n;
-    int &ref = n;
-    int *ptr = &n;
-    display(n);
-    construct(ptr);
-    destruct(ptr);
+
+    std::cout << "---------- Exercice 1 --------------" << std::endl;
+    first_function();
 }
 
-//Write a function that displays a pointer, its address and its value.
+void show_pointeur (int *n){
 
-void display(int n){
-    int &ref = n;
-    int *ptr = &n;
-    std::cout << "La valeur de n est : " << n << std::endl;
-    std::cout << "L'adresse de n est : " << &n << std::endl;
-    std::cout << "La valeur pointée par ptr est : " << *ptr << std::endl;
+    std::cout << "pointeur : "<< n << std::endl;
+    std::cout << "adresse : "<< &n << std::endl;
+    std::cout << "valeur : "<< *n << std::endl;
 }
 
-//Write a function that takes a pointer as an argument and assigns a value to it.
+void construct (int* const n) {
 
-void construct(int *ptr){
-    *ptr = 42;
+    *n = 42;
+
 }
 
-//Write a destructor function that takes a pointer as an argument and frees the memory.
-
-void destruct(int *ptr) {
-    delete ptr;
-    ptr = nullptr;
+void destruct(const int* n){
+    delete n;
+    n = nullptr;
 }
+
+void first_function (){
+
+    int n = 5;
+    int &r = n;
+    int *p = &n;
+    std::cout <<  *p << "," << &n <<","<< &r << std::endl;
+    show_pointeur(&n);
+    construct(&n);
+    construct(&r);
+    construct(p);
+    destruct(&n);
+    destruct(&r);
+    destruct(p);
+}
+
+
 
 
