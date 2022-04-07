@@ -4,6 +4,7 @@
 #include <iostream>
 #include "../Header/Exercice1.h"
 
+
 void Exercice1 (){
 
     std::cout << "---------- Exercice 1 --------------" << std::endl;
@@ -43,6 +44,7 @@ void first_function (){
     destruct(&r);
     destruct(p);
     show_pointeur(&n);
+
 }
 
 
