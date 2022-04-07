@@ -38,6 +38,7 @@ void first_function (){
     construct(&n);
     construct(&r);
     construct(p);
+    show_pointeur(&n);
     destruct(&n);
     destruct(&r);
     destruct(p);

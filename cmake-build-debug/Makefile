@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TP2C++
+# Target rules for targets named TP2C
 
 # Build rule for target.
-TP2C++: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TP2C++
-.PHONY : TP2C++
+TP2C: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TP2C
+.PHONY : TP2C
 
 # fast build rule for target.
-TP2C++/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C++.dir\build.make CMakeFiles/TP2C++.dir/build
-.PHONY : TP2C++/fast
+TP2C/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/build
+.PHONY : TP2C/fast
 
 Src/Exercice1.obj: Src/Exercice1.cpp.obj
 .PHONY : Src/Exercice1.obj
 
 # target to build an object file
 Src/Exercice1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C++.dir\build.make CMakeFiles/TP2C++.dir/Src/Exercice1.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/Src/Exercice1.cpp.obj
 .PHONY : Src/Exercice1.cpp.obj
 
 Src/Exercice1.i: Src/Exercice1.cpp.i
@@ -141,7 +141,7 @@ Src/Exercice1.i: Src/Exercice1.cpp.i
 
 # target to preprocess a source file
 Src/Exercice1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C++.dir\build.make CMakeFiles/TP2C++.dir/Src/Exercice1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/Src/Exercice1.cpp.i
 .PHONY : Src/Exercice1.cpp.i
 
 Src/Exercice1.s: Src/Exercice1.cpp.s
@@ -149,15 +149,63 @@ Src/Exercice1.s: Src/Exercice1.cpp.s
 
 # target to generate assembly for a file
 Src/Exercice1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C++.dir\build.make CMakeFiles/TP2C++.dir/Src/Exercice1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/Src/Exercice1.cpp.s
 .PHONY : Src/Exercice1.cpp.s
+
+Src/Exercice2.obj: Src/Exercice2.cpp.obj
+.PHONY : Src/Exercice2.obj
+
+# target to build an object file
+Src/Exercice2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/Src/Exercice2.cpp.obj
+.PHONY : Src/Exercice2.cpp.obj
+
+Src/Exercice2.i: Src/Exercice2.cpp.i
+.PHONY : Src/Exercice2.i
+
+# target to preprocess a source file
+Src/Exercice2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/Src/Exercice2.cpp.i
+.PHONY : Src/Exercice2.cpp.i
+
+Src/Exercice2.s: Src/Exercice2.cpp.s
+.PHONY : Src/Exercice2.s
+
+# target to generate assembly for a file
+Src/Exercice2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/Src/Exercice2.cpp.s
+.PHONY : Src/Exercice2.cpp.s
+
+Src/Exercice3.obj: Src/Exercice3.cpp.obj
+.PHONY : Src/Exercice3.obj
+
+# target to build an object file
+Src/Exercice3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/Src/Exercice3.cpp.obj
+.PHONY : Src/Exercice3.cpp.obj
+
+Src/Exercice3.i: Src/Exercice3.cpp.i
+.PHONY : Src/Exercice3.i
+
+# target to preprocess a source file
+Src/Exercice3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/Src/Exercice3.cpp.i
+.PHONY : Src/Exercice3.cpp.i
+
+Src/Exercice3.s: Src/Exercice3.cpp.s
+.PHONY : Src/Exercice3.s
+
+# target to generate assembly for a file
+Src/Exercice3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/Src/Exercice3.cpp.s
+.PHONY : Src/Exercice3.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C++.dir\build.make CMakeFiles/TP2C++.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -165,7 +213,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C++.dir\build.make CMakeFiles/TP2C++.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +221,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C++.dir\build.make CMakeFiles/TP2C++.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2C.dir\build.make CMakeFiles/TP2C.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -184,10 +232,16 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... TP2C++
+	@echo ... TP2C
 	@echo ... Src/Exercice1.obj
 	@echo ... Src/Exercice1.i
 	@echo ... Src/Exercice1.s
+	@echo ... Src/Exercice2.obj
+	@echo ... Src/Exercice2.i
+	@echo ... Src/Exercice2.s
+	@echo ... Src/Exercice3.obj
+	@echo ... Src/Exercice3.i
+	@echo ... Src/Exercice3.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

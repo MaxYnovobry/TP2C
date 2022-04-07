@@ -17,8 +17,8 @@
 					<DistClean command="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TP2C++">
-				<Option output="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/TP2C++.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="TP2C">
+				<Option output="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/TP2C.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -33,14 +33,14 @@
 					<Add directory="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP2C++"/>
+					<Build command="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP2C"/>
 					<CompileFile command="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TP2C++/fast">
-				<Option output="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/TP2C++.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="TP2C/fast">
+				<Option output="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/TP2C.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -55,7 +55,7 @@
 					<Add directory="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP2C++/fast"/>
+					<Build command="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP2C/fast"/>
 					<CompileFile command="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/Laurie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -83,13 +83,25 @@
 			</Target>
 		</Build>
 		<Unit filename="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/Header/Exercice1.h">
-			<Option target="TP2C++"/>
+			<Option target="TP2C"/>
+		</Unit>
+		<Unit filename="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/Header/Exercice2.h">
+			<Option target="TP2C"/>
+		</Unit>
+		<Unit filename="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/Header/Exercice3.h">
+			<Option target="TP2C"/>
 		</Unit>
 		<Unit filename="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/Src/Exercice1.cpp">
-			<Option target="TP2C++"/>
+			<Option target="TP2C"/>
+		</Unit>
+		<Unit filename="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/Src/Exercice2.cpp">
+			<Option target="TP2C"/>
+		</Unit>
+		<Unit filename="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/Src/Exercice3.cpp">
+			<Option target="TP2C"/>
 		</Unit>
 		<Unit filename="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/main.cpp">
-			<Option target="TP2C++"/>
+			<Option target="TP2C"/>
 		</Unit>
 		<Unit filename="C:/Users/Laurie/Documents/YNOV INFO/B1/POO/TP2C/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
