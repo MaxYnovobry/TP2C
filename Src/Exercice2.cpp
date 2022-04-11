@@ -13,7 +13,7 @@ void Exercice2() {
 typedef double *ptrDouble;
 
 void constructeur_tableau(ptrDouble &dd, const unsigned &taille) {
-    dd = new double[taille];
+    dd = new double[taille]{0};
 }
 
 void afficher_tableau(const ptrDouble &dd, const unsigned &taille) {
@@ -23,11 +23,8 @@ void afficher_tableau(const ptrDouble &dd, const unsigned &taille) {
     }
     std::cout << "[" ;
     for (unsigned i = 0; i < taille; ++i) {
-
             std::cout << dd[i] << ", ";
-
-        }
-    ;
+        };
         std::cout << "]" << std::endl;
 }
 

@@ -10,12 +10,10 @@ void Exercice3() {
     TP3();
 }
 
-
-
 typedef std::shared_ptr<double> ptrStdDouble;
 
 void constructeur_tableau(ptrStdDouble &dd,const unsigned &taille) {
-    dd = std::make_shared<double>(taille);
+    dd = std::shared_ptr<double> (new double[taille](), std::default_delete<double[]>());
 }
 
 void afficher_tableau(const ptrStdDouble &dd, const unsigned &taille) {
@@ -25,20 +23,17 @@ void afficher_tableau(const ptrStdDouble &dd, const unsigned &taille) {
     }
     std::cout << "[" ;
     for (unsigned i = 0; i < taille; ++i) {
-
-        std::cout << (&dd)[i] << ", ";
-
+        std::cout << dd.get()[i] << ", ";
     }
-    ;
     std::cout << "]" << std::endl;
 }
 
-void modifier_tableau(ptrStdDouble const &dd, const unsigned &taille, const unsigned &index, const double &valeur) {
+void modifier_tableau(ptrStdDouble &dd, const unsigned &taille, const unsigned &index, const double &valeur) {
     dd.get()[index] = valeur;
 }
 
 void destructeur_tableau(ptrStdDouble &dd) {
-    dd.reset();
+    dd = nullptr;
 }
 
 const double& get_tableau(const ptrStdDouble &dd, const unsigned &taille, const unsigned &index) {

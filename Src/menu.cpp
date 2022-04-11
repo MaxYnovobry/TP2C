@@ -35,6 +35,6 @@ void Menu() {
             default:
                 std::cout << "Choix invalide" << std::endl;
         }
-    } while (choix != 5);
+    } while (choix != 4);
 }
 
